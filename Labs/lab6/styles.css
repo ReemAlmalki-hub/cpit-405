@@ -1,0 +1,80 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#like-button {
+    background-color: #28a745;
+    color: white;
+}
+
+#dislike-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+#submit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+#clear-button,
+#reset-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* 3. Comment Styling */
+
+textarea {
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+#comments-section {
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+#comments-section p {
+    background-color: white;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
