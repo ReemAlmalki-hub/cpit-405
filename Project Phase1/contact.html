@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Reem Almalki</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap"><a class="logo" href="index.html">RA</a>
+      <nav class="nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a
+          href="projects.html">Work</a><a href="cv.html">CV</a><a class="active" href="contact.html">Contact</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <div class="eyebrow">Say hello / 05</div>
+        <h1 class="page-title">Let’s start<br><em>a conversation.</em></h1>
+        <p class="page-intro">Have a question, collaboration idea, or opportunity? Feel free to get in touch.</p>
+      </div>
+    </section>
+    <section class="section" style="padding-top:10px">
+      <div class="container contact-grid">
+        
+        <aside class="contact-card">
+          <h1 style="color:#D8C5AE; font-size:6rem">Find me<br>around the <br> web.</h1>
+          <br>
+          <br>
+          <p><strong>Email</strong><br><a href="mailto:ralmalki0410@stu.kau.edu.sa">ralmalki0410@stu.kau.edu.sa</a></p>
+          <p><strong>Phone</strong><br><a href="tel:+966554114061">+966 55 411 4061</a></p>
+          <p><strong>LinkedIn</strong><br><a href="https://www.linkedin.com/in/reem-almalki-2903m" target="_blank"
+              rel="noopener">linkedin.com/in/reem-almalki-2903m ↗</a></p>
+        </aside>
+
+
+        <form class="contact-form" action="https://formspree.io/f/meaawozk" method="POST">
+          <div class="eyebrow">Send a message</div>
+          <h2 style="font-family:'DM Sans',sans-serif;color:#4A2E25;font-size:2.2rem;font-weight:700;margin:8px 0">
+            Contact me.</h2>
+          <input type="hidden" name="_subject" value="New message from Reem's portfolio">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="true">
+          <label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+          <label for="email">Your email</label><input id="email" name="email" type="email"
+            placeholder="name@example.com" required>
+          
+            <label for="type">Message type</label>
+            <select id="type" name="message_type">
+            <option>General inquiry</option>
+            <option>Project collaboration</option>
+            <option>Feedback</option>
+          </select>
+
+          <label for="message">Message</label><textarea id="message" name="message"
+            placeholder="Write your message here..." required></textarea>
+          <button class="btn" type="submit" style="margin-top:18px;cursor:pointer">Send message ↗</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><strong>Reem. <span>— Contact</span></strong><span>© 2026 Reem Almalki</span>
+    </div>
+  </footer>
+</body>
+
+</html>
