@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash Image Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Unsplash API</h1>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search for images...">
+        <button id="xhrButton">Search using XHR</button>
+        <button id="promiseButton">Search using Fetch (Promises)</button>
+        <button id="asyncButton">Search using Fetch (Async/Await)</button>
+    </div>
+
+    <div id="results"></div>
+    <script src="script.js"></script>
+</body>
+</html>
